@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a web page called pokedex where you can find arond 151 pokemons">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" href="img/pokedex.png">
+
+    <title>Pokédex</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-main">
+        <div class="container-fluid">
+            <div class="col-lg-4">
+                <div id="title" class="row mx-auto">
+                    <img src="img/pokedex.png" class="imgT my-auto" id="img-title" alt="logo Pokedex" width="auto" height="auto">
+                    <h1 id="title_text" class="navbar-brand col-8 my-auto title-main" href="#">Pokédex</h1>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="row mx-auto text-center  ">
+                    <a href="abouus.html" class="col-5 list text-body-bold">About us</a>
+                    <a href="aboutpage.html" class="col-5 list text-body-bold">About this page</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form id="searchPokemon" class="d-flex" name="search pokemon" title="Search">
+                    <label for="search">Search Pokemon</label>
+                    <input id="pokName" class="col-8 form-control me-2" type="search" placeholder="Search pokemon"
+                        aria-label="Search">
+                    <button id="boton" class="col-3 btn btn-outline-danger text-body-bold " type="submit" >Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid sticky-top bg-third py-2 text-center">
+        <a href="#title" class="col-2 mx-4 btn btn-dark text-body-bold ">Back up</a>
+        <button id="btn_mode" class="col-2 mx-4 btn btn-dark text-body-bold"><p class="my-auto">Landscape mode </p></button>
+        <form title="Adjust Font">
+            <label class="text-body-bold text-white my-1" for="Adjust Font" aria-label="Adjust Font ">Adjust font size</label>
+            <select class="" name="" id="text_size">
+                <option value="1">100%</option>
+                <option value="1.25">125%</option>
+                <option value="1.5">150%</option>
+                <option value="1.75">175%</option>
+                <option value="2">200%</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="conatiner-fluid m-2">
+        <div id="pokedex_content" class="row mx-auto my-4">
+
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    <script src="pokemon.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

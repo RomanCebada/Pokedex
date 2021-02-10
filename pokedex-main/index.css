@@ -1,0 +1,87 @@
+.imgT{
+    width:65px;
+}
+
+.title_a{
+    text-decoration: none;
+}
+
+#pokName::placeholder{
+    color: #000;
+}
+.card-text{
+    text-decoration: none;
+    line-height: 22.5px;  /*1.4.12 espaciado de texto*/
+    padding-bottom: 30px;
+    letter-spacing: 1.8px;
+    word-spacing: 2.4px; /*TERMINA ACÁ*/
+}
+.list{
+    text-decoration: none;
+    color:#f0f0f0;
+}
+.list:hover{
+    color:#f00000;
+}
+.bg-main{
+    background-color:#222224;
+}
+.bg-second{
+    background-color: #f0f0f0;
+}
+.text-main{
+    color:#222224;
+}
+.text-res{
+    color:#f00000;
+}
+.bg-third{
+    background-color: #ec3b3b;
+}
+
+
+#boton{
+    color: black;
+    background-color: white;
+}
+/*1.4.6 CONTRASTE MEJORADO*/
+.title-main{
+    font-size: 45px;
+    color:white;
+}
+.subtitles{
+    color:#ee1515;
+}
+.text-body{
+    font-size: 15px;
+}
+.text-body-bold{
+    font-size:18px;
+    font-weight: bold;
+}
+
+#footer{
+    font-size: 18px;
+}
+
+#titleAU{
+    color:white;
+}
+/*TERMINAN 1.4.6*/
+
+
+/*MODO HORIZONTAL*/ 
+.description-card{
+    white-space: normal;
+}
+
+div.scrollmenu {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display:inline-flex;
+    text-decoration: none;
+  }
+/*HORZONTAL*/
